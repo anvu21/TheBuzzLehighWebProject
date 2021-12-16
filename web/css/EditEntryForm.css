@@ -1,0 +1,89 @@
+/*Edit Entry Styles*/
+.EditEntryForm{
+    position: absolute;
+    top: 11%;
+    padding: 20px;
+    height: 95%;
+    width: 95%;
+    margin-bottom: 5%;
+    margin-left: 2.5%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    border: 2.5px dotted #464646;
+    border-radius: 15px;
+    background-color:rgb(231, 235, 176);
+
+    font-size: 23px;
+    font-weight: 700;
+    font-family:"Lucida Handwriting", cursive;
+}
+
+.EditEntryForm .text-input {
+    width: 95%;
+    padding: 3%;
+    height: 100%;
+    resize: none;
+    font-size: medium;
+    font-weight: 500;
+    border: 2.5px solid #464646;
+    border-radius: 15px;
+    box-shadow:5px 5px 0px rgb(117, 119, 93);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 247, 236);
+}
+
+.edit-title-block{
+    height: 70px;
+    width: 95%;
+}
+
+.edit-message-block{
+    height: 260px;
+    width: 95%;
+}
+
+.update-btn{
+    top: 30%;
+    left: 3%;
+    width: 49%;
+    height: 40px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-right: 12px;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: lighter;
+    border: 2.5px solid #464646;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px rgb(117, 119, 93);
+    background-color: antiquewhite;
+}
+
+.update-btn:hover{
+    cursor:pointer;
+    transform:translate(calc(2px), calc(2px));
+    box-shadow:3px 3px 0px #5c685e;
+}
+
+.edit-cancel{
+    top: 30%;
+    left: 3%;
+    width: 35%;
+    height: 40px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-family: Georgia;
+    font-weight: lighter;
+    font-size: 18px;
+    border: 2.5px solid #464646;
+    border-radius: 10px;
+    box-shadow:5px 5px 0px rgb(117, 119, 93);
+    background-color: antiquewhite;
+}
+
+.edit-cancel:hover{
+    cursor:pointer;
+    transform:translate(calc(2px), calc(2px));
+    box-shadow:3px 3px 0px #5c685e;
+}

@@ -1,0 +1,142 @@
+/*ElementList Styles*/
+.detailed-post-view {
+    position: absolute;
+    float: middle;
+    padding: 15px;
+    margin-left: 33px;
+    float: middle;
+    background-color: transparent;
+    border-radius: 12px;
+    width: 80%;
+    top: 18%;
+    left: 5%;
+    right: 5%;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    align-items: center;
+}
+
+.post-view{
+    float: middle;
+    margin: 15px;
+    padding: 10px;
+    min-height: 120px;
+    margin-left: 10px;
+    width: 95%;
+    max-height: 180px;
+    border: 2.7px solid #552222;
+    border-radius: 12px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: antiquewhite;
+    display: block;
+    box-shadow:5px 5px 0px #909396;
+}
+
+.title{
+    font-size: large;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    background-color: mintcream;
+}
+
+.message{
+    font-size: 13pt;
+    font-family: 'Times New Roman';
+}
+
+.buttons{
+    text-align: right;
+}
+
+.post-view .edit-btn{
+    position: relative;
+    width: 18%;
+    height: 33px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-right: 15px;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 12pt;
+    border: 2px solid #464646;
+    border-radius: 10px;
+    background-color: mintcream;
+    box-shadow:4px 4px 0px #909396;
+}
+
+.edit-btn:hover{
+    cursor:pointer;
+    transform:translate(calc(2px), calc(2px));
+    box-shadow:2px 2px 0px #5e5e5e;
+}
+
+.delete-btn{
+    position: relative;
+    width: 20%;
+    height: 33px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-right: 20px;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 12pt;
+    border: 2px solid #464646;
+    border-radius: 10px;
+    background-color: mintcream;
+    box-shadow:4px 4px 0px #909396;
+}
+
+.delete-btn:hover{
+    cursor:pointer;
+    transform:translate(calc(2px), calc(2px));
+    box-shadow:2px 2px 0px #5e5e5e;
+}
+
+.my-upvote{
+    position: relative;
+    width: 10%;
+    height: 33px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-right: 15px;
+    font-family: "Times New Roman";
+    border: 2px solid #464646;
+    border-radius: 14pt;
+    box-shadow:4px 4px 0px #909396;
+    background-color: mintcream;
+}
+
+.my-upvote:hover{
+    cursor:pointer;
+    transform:translate(calc(2px), calc(2px));
+    box-shadow:2px 2px 0px #5e5e5e;
+    background-color:rgb(255, 224, 218);
+}
+
+.my-downvote{
+    position: relative;
+    top: 30%;
+    width: 10%;
+    height: 33px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    font-family: "Times New Roman";
+    border: 2px solid #464646;
+    border-radius: 14pt;
+    box-shadow:4px 4px 0px #909396;
+    background-color: mintcream;
+}
+
+.my-downvote:hover{
+    cursor:pointer;
+    transform:translate(calc(2px), calc(2px));
+    box-shadow:2px 2px 0px #5e5e5e;
+    background-color:rgb(255, 224, 218);
+}
+
+.my-vote-true {
+    background-color:rgb(255, 208, 247);
+    transform:translate(calc(2px), calc(2px));
+    box-shadow:2px 2px 0px rgb(174, 197, 174);
+}

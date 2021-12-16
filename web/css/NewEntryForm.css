@@ -1,0 +1,90 @@
+/*New Entry Styles*/
+.NewEntryForm {
+    position: absolute;
+    padding: 20px;
+    top: 11%;
+    margin-left: 2.5%;
+    height: 95%;
+    width: 95%;
+    margin-bottom: 5%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    border: 3px dotted #464646;
+    border-radius: 15px;
+    border-color:lavenderblush;
+    background-color:rgb(200, 230, 218);
+
+    font-size: 23px;
+    font-weight: 700;
+    font-family:"Lucida Handwriting", cursive;
+}
+
+.NewEntryForm .text-input {
+    width: 95%;
+    padding: 3%;
+    height: 100%;
+    resize: none;
+    font-size: medium;
+    font-weight: 500;
+    border: 2.5px solid #464646;
+    border-radius: 12px;
+    box-shadow:5px 5px 0px #5c685e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: scroll;
+    color:rgb(37, 34, 34);
+    background-color: rgb(255, 247, 236);
+}
+
+.NewEntryForm .title-block{
+    height: 70px;
+}
+
+.NewEntryForm .message-block{
+    height: 260px;
+}
+
+.ok-btn{
+    top: 30%;
+    left: 3%;
+    width: 40%;
+    height: 40px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-right: 19px;
+    border: 2.5px solid #464646;
+    box-shadow:4px 4px 0px #5c685e;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.close-btn{
+    top: 30%;
+    left: 10%;
+    width: 47%;
+    height: 40px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: lighter;
+    border: 2.5px solid #464646;
+    box-shadow:4px 4px 0px #5c685e;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.ok-btn:hover{
+    cursor:pointer;
+    transform:translate(calc(2px), calc(2px));
+    box-shadow:5px 5px 0px rgb(202, 202, 202);
+}
+
+.close-btn:hover{
+    cursor:pointer;
+    transform:translate(calc(2px), calc(2px));
+    box-shadow:5px 5px 0px rgb(202, 202, 202);
+}

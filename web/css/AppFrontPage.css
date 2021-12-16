@@ -1,0 +1,94 @@
+/*App Front Page Styles*/
+body {
+    padding: 1px;
+    margin: 0;
+}
+
+hr.line {
+    width: 80%;
+    border: 1px solid rgba(0, 34, 56, 0.534);
+    border-radius: 5px;
+}
+
+.all-messages-header {
+    background-color:rgba(173, 216, 230, 0.747);
+    font-size: 20pt;
+    font-family: Georgia;
+    margin-top: 2%;
+    height: 42px;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    text-align: center;
+    color:rgb(0, 22, 41);
+}
+
+.banner-title{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30pt;
+    font-weight: bolder;
+    text-shadow: 0 0 3px #ffffff;
+    color: rgb(34, 0, 0);
+}
+
+#banner{
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom: 90%;
+    background-color:rgb(255, 224, 218);
+}
+
+#left-design{
+    position: absolute;
+    overflow-y: scroll;
+    border:2.7px solid #464646;
+    border-radius: 13px;
+    background-color:rgb(174, 197, 174);
+    box-shadow:8px 8px 0px #909396;
+    right: 70%;
+    left: 0;
+    top: 10%;
+    bottom: 0;
+}
+
+#right-design{
+    position: absolute;
+    padding: 15px;
+    left: 30.5%;
+    right: 0.5%;
+    top: 10%;
+    bottom: 0;
+    border: 2.7px solid #464646;
+    border-radius: 13px;
+    background-color:lightcyan;
+    box-shadow:8px 8px 0px #909396;
+}
+
+input, textarea {
+    display: block;
+    width: 200px;
+}
+
+.new-post-btn{
+    position: relative;
+    width: 47%;
+    height: 42px;
+    left: 5%;
+    top: 2%;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-size: 17pt;
+    font-weight: bold;
+    font-family: "Lucida Handwriting", cursive;
+    border: 2.5px solid #464646;
+    border-radius: 15px;
+    box-shadow:6px 6px 0px rgb(87, 99, 87);
+    background-color: antiquewhite;
+}
+
+.new-post-btn:hover{
+    cursor:pointer;
+    transform:translate(calc(2px), calc(2px));
+    box-shadow:4px 4px 0px #45463a;
+}
