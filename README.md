@@ -5,7 +5,7 @@ This is our group repository for the app "The Buzz", intended for our group memb
 - Semester: Fall 2021
 - Bitbucket Repository: https://mul223@bitbucket.org/chm321/cse216_group15.git
 - App name: The Buzz
-- Heroku Url: https://runtimes/heroku.com
+- Heroku Url: https://runtimes.herokuapp.com/
 
 ## Contributors
 1. Michelle Li
